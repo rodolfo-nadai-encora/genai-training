@@ -1,0 +1,27 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend for Task Manager",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "debug": "node --inspect=0.0.0.0:9229 src/app.js",
+    "test": "jest --no-watchAll"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mockery": "^2.1.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^7.0.0"
+  }
+}
